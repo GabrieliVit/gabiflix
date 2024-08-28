@@ -1,0 +1,54 @@
+body{ 
+color: white;
+background-color: rgb(106, 185, 185);
+margin: 5px;
+font-family: "Matemasie", sans-serif;
+
+}
+
+header {
+border-bottom: solid 2px white;
+padding: 20px;
+font-size: 32px;
+color: rgb(9, 48, 38);
+font-family: "Righteous", sans-serif;
+
+}
+section{
+    background: rgb(40, 114, 102);
+padding-bottom: 30px;
+padding-top: 20px;
+display: grid;
+justify-content: center;
+}
+
+.chamada-texto{
+margin-right: 3%;
+}
+h1{
+    font-size: 29px;
+}
+p{
+    font-size: 25px;
+}
+
+img{
+    height: 125px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria-videos img{
+    opacity: 0.6;
+    height: 125px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+element.style{
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
